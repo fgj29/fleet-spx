@@ -20,7 +20,9 @@ org_settings:
       destination_url: https://webhook.site/1947480e-a17f-42f3-9397-42eed4e690d0
   org_info:
     org_name: SPCX
-server_settings:
+
+    
+  server_settings:
     ###########################################################
     # The server URL where Fleet is running.
     #
