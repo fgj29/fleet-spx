@@ -74,8 +74,7 @@ controls:
         labels_exclude_any:
           - "macOS 27 beta testers"    
   windows_settings:
-    scripts:
-      - path: ../platforms/windows/scripts/*.ps1
+  
 
   ###########################################################
   # Managed disk encryption
