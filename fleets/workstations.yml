@@ -193,6 +193,9 @@ software:
        setup_experience: true
        categories:
          - Communication
+          packages:
+     - path: ../platforms/windows/software/cloudflare-warp.yml
+       self_service: false
       
 
 
