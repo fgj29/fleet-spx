@@ -14,12 +14,12 @@
 org_settings:
     fleet_desktop:
     transparency_url: https://pointerpointer.com
-org_info:
-    org_name: SPCX
 Webhook_settings:
   activities_webhook:
     enable_activities_webhook: true
     destination_url: https://webhook.site/1947480e-a17f-42f3-9397-42eed4e690d0
+org_info:
+    org_name: SPCX
 
   server_settings:
     ###########################################################
