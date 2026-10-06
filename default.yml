@@ -21,7 +21,7 @@ Webhook_settings:
 org_info:
     org_name: SPCX
 
-  server_settings:
+server_settings:
     ###########################################################
     # The server URL where Fleet is running.
     #
