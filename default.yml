@@ -21,7 +21,7 @@ org_settings:
   org_info:
     org_name: SPCX
 
-    
+
   server_settings:
     ###########################################################
     # The server URL where Fleet is running.
@@ -43,7 +43,7 @@ org_settings:
   #   idp_name: "Okta" # e.g. "Entra", "Okta", "Google Workspace", etc.  (This appears to admins on the login screen as a "Sign in with ________" button.)
   #   metadata_url: "https://okta.com/replace-this-url" # This must exactly match the "IdP metadata URL" provided by your identity provider (IdP) when setting up this integration.
   #   entity_id: "fleet-admins" # This must exactly match the "Entity ID" field you chose when setting up this integration in your identity provider (IdP).
-    mdm:
+  mdm:
     ###########################################################
     # Uncomment to use single sign-on (SSO) to authenticate
     # new computers enrolling in Fleet during end user setup.
