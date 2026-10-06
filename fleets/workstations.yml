@@ -199,3 +199,16 @@ software:
 
   app_store_apps: # Apps to install via VPP from the macOS App Store, if any
     # …
+settings:
+  webhook_settings:
+    failing_policies:
+      enabled: true
+      url: "https://your-custom-webhook.example.com/webhooks/receive-from-fleet"
+    # (Optional) If you want to receive webhook notifications for
+    # this fleet, uncomment and set the URL below.
+    #
+    # For more, see:
+    #   • https://fleetdm.com/docs/configuration/yaml-files#webhook-settings
+    #   • https://fleetdm.com/guides/webhooks
+    #
+    # url: "https://your-custom-webhook.example.com/webhooks/receive-from-fleet"
