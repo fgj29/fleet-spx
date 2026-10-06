@@ -9,3 +9,7 @@
   description: Hosts that have been up for more than 30 days
   query: SELECT * FROM uptime WHERE days > 30
   label_membership_type: dynamic
+- name: macOS 27 beta testers
+  description: Hosts that are enrolled in the macOS 27 beta program
+  label_membership_type: manual
+  hosts:  
